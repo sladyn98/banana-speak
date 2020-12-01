@@ -1,0 +1,8 @@
+.output-area {
+    width: auto;
+    padding: 10px 10px;
+    height: 100px;
+    border-radius: 2px;
+    border: 1px solid;
+    margin: 10px;
+}
