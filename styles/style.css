@@ -1,8 +1,69 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+body{
+   font-family: 'Nunito', 'sans-serif';
+}
+
+:root {
+    --primary-color: #FBBF24;
+}
+
+
+/* Navigation bar */
+.nav {
+    text-align: center;
+    background-color: var(--primary-color);
+    border-radius: 1rem;
+}
+
+/* Text-Area */
+.text-area-div {
+    text-align: center;
+}
+
+.text-area {
+    resize: none;
+    height: 200px;
+    width: 600px;
+    border: 10px solid;
+    border-radius: 10px;
+}
+
+/* Translate Button */
+#btn-translate {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FBBF24;
+    box-shadow: none;
+    font-size: large;
+}
+
+/* Center div */
+.center{
+    position: fixed;
+    left: 48%;
+}
+
+/* Output Area */
 .output-area {
-    width: auto;
     padding: 10px 10px;
-    height: 100px;
-    border-radius: 2px;
-    border: 1px solid;
-    margin: 10px;
+    border-radius: 10px;
+    border: 10px solid;
+    height: 200px;
+    width: 600px;
+    margin: auto;
+}
+
+/* Footer */
+
+.footer{
+        position:absolute;
+        bottom:0;
+        width:99%;
+        height:60px;   /* Height of the footer */
+        background:var(--primary-color);
+        text-align: center;
+        border-radius: 10px;
 }
